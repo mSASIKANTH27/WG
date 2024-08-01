@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Western Goat</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add this style block */
+        #container {
+            position: relative;
+        }
+
+        .marker {
+            position: absolute;
+            left: 0;
+            top: 0;
+            transition: left 0.3s;
+        }
+    </style>
+</head>
+
+<body class="bg-black flex flex-col items-center justify-center min-h-screen overflow-hidden">
+    <div id="container" class="flex items-center justify-center">
+        <!-- Place other elements here if needed -->
+    </div>
+
+    <div class="logo">
+        <img src="WesternGoat_Header.png" alt="Transparent Logo" class="w-24">
+    </div>
+    <div class="bagplace">
+        <img src="logo3.png" alt="Transparent Logo" class="w-24">
+    </div>
+
+    <div class="name1 text-white text-4xl font-light">
+        <h1>Website
+    </div>
+    <div class="name2 text-white text-4xl font-light">Under Construction</div>
+    <div class="url text-gray-400 text-sm tracking-wide">//WWW.WESTERNGOAT.COM//</div>
+    <div class="order text-white text-lg text-center">
+        <p class="contact">For Orders and Queries</p>
+        <p class="phone mt-2">Contact: 9xxx4 6xxx4</p>
+    </div>
+
+    <div class="image1">
+        <img src="T_Shirt_BG.png" alt="" class="w-600 ">
+
+    </div>
+
+    <div class="color-strip">
+        <img src="ColorStrip.png" alt="Color Strip" class="w-full h-auto">
+    </div>
+    <div id="right-arrow" class="right-arrow cursor-pointer w-8 h-auto">
+        <img src="RightArrow.png" alt="Right Arrow" class="w-full h-auto">
+    </div>
+    <div id="left-arrow" class="left-arrow cursor-pointer w-8 h-auto">
+        <img src="LeftArrow.png" alt="Left Arrow" class="w-full h-auto">
+    </div>
+    <div id="marker" class="marker w-4 h-auto">
+        <img src="marker.png" alt="Marker" class="w-full h-auto">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128/examples/js/controls/OrbitControls.js"></script>
+    <script src="scripts.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="script.js" type="module"></script>
+
+
+</body>
+
+</html>
